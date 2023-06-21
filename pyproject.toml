@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "test-django"
+version = "0.1.0"
+description = ""
+authors = []
+readme = "README.md"
+packages = [{include = "test_django"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.2.2"
+environs = "^9.5.0"
+psycopg2 = "^2.9.6"
+djangorestframework = "^3.14.0"
+drf-spectacular = "^0.26.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
